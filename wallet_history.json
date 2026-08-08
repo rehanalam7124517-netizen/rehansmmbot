@@ -1,0 +1,134 @@
+{
+    "8279316644": [
+        {
+            "amount": -96.0,
+            "reason": "ᴍᴀɴᴜᴀʟ ᴅᴇᴅᴜᴄᴛ",
+            "order_id": null,
+            "service_id": null,
+            "date": "29-06-2026 04:25 PM"
+        },
+        {
+            "amount": -0.0,
+            "reason": "ᴍᴀɴᴜᴀʟ ᴅᴇᴅᴜᴄᴛ",
+            "order_id": null,
+            "service_id": null,
+            "date": "29-06-2026 04:52 PM"
+        },
+        {
+            "amount": 1.0,
+            "reason": "ᴍᴀɴᴜᴀʟ ᴀᴅᴅ",
+            "order_id": null,
+            "service_id": null,
+            "date": "29-06-2026 04:52 PM"
+        },
+        {
+            "amount": -1.04,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 671532,
+            "service_id": "567",
+            "date": "29-06-2026 04:55 PM"
+        },
+        {
+            "amount": -0.45,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 671575,
+            "service_id": "4598",
+            "date": "29-06-2026 05:50 PM"
+        },
+        {
+            "amount": -0.45,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 671577,
+            "service_id": "4598",
+            "date": "29-06-2026 05:52 PM"
+        },
+        {
+            "amount": 0.45,
+            "reason": "ʀᴇꜰᴜɴᴅ",
+            "order_id": "671577",
+            "service_id": "4598",
+            "date": "01-07-2026 07:05 PM"
+        },
+        {
+            "amount": -0.86,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 675084,
+            "service_id": "567",
+            "date": "03-07-2026 11:30 AM"
+        },
+        {
+            "amount": -0.86,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 675564,
+            "service_id": "567",
+            "date": "03-07-2026 07:53 PM"
+        },
+        {
+            "amount": -1.16,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 677218,
+            "service_id": "566",
+            "date": "05-07-2026 05:49 PM"
+        },
+        {
+            "amount": 20.0,
+            "reason": "ᴇxᴛʀᴀ ʙᴏɴᴜꜱ - HIGH UPDATE DAY",
+            "order_id": null,
+            "service_id": null,
+            "date": "06-07-2026 12:02 PM"
+        },
+        {
+            "amount": 10.0,
+            "reason": "ꜰᴜɴᴅ ᴀᴅᴅᴇᴅ",
+            "order_id": null,
+            "service_id": null,
+            "date": "06-07-2026 04:26 PM"
+        }
+    ],
+    "6323330154": [
+        {
+            "amount": 20.0,
+            "reason": "ᴇxᴛʀᴀ ʙᴏɴᴜꜱ - HIGH UPDATE DAY",
+            "order_id": null,
+            "service_id": null,
+            "date": "06-07-2026 12:02 PM"
+        },
+        {
+            "amount": -0.77,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 690978,
+            "service_id": "3928",
+            "date": "19-07-2026 09:25 AM"
+        },
+        {
+            "amount": -65.56,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 703488,
+            "service_id": "4685",
+            "date": "30-07-2026 07:15 AM"
+        },
+        {
+            "amount": -3.03,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 706094,
+            "service_id": "1051",
+            "date": "01-08-2026 03:02 PM"
+        },
+        {
+            "amount": -65.56,
+            "reason": "ᴏʀᴅᴇʀ ᴘʟᴀᴄᴇᴅ",
+            "order_id": 712354,
+            "service_id": "4685",
+            "date": "06-08-2026 01:49 PM"
+        }
+    ],
+    "8831355756": [
+        {
+            "amount": 20.0,
+            "reason": "ᴇxᴛʀᴀ ʙᴏɴᴜꜱ - HIGH UPDATE DAY",
+            "order_id": null,
+            "service_id": null,
+            "date": "06-07-2026 12:02 PM"
+        }
+    ]
+}

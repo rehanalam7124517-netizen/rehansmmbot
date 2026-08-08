@@ -1,0 +1,31 @@
+{
+    "REHAN50": {
+        "amount": 5,
+        "max_uses": 2,
+        "used_by": [
+            "6323330154",
+            "8279316644"
+        ]
+    },
+    "AIR10": {
+        "amount": 10,
+        "max_uses": 1,
+        "used_by": [
+            "8279316644"
+        ]
+    },
+    "RHN1DSA3": {
+        "amount": 1.0,
+        "max_uses": 2,
+        "used_by": [],
+        "expiry": "",
+        "created_at": "06-07-2026 04:31 PM"
+    },
+    "RHN3GNCF": {
+        "amount": 1.0,
+        "max_uses": 100,
+        "used_by": [],
+        "expiry": "",
+        "created_at": "08-07-2026 08:17 AM"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "4240": {
+        "sid": "4240",
+        "name": "ɢᴏᴏɢʟᴇ ᴍᴀᴘꜱ ʀᴇᴠɪᴇᴡꜱ ⭐",
+        "subcat": "gg_maps",
+        "source": "added_services.json",
+        "row": {
+            "name": "ɢᴏᴏɢʟᴇ ᴍᴀᴘꜱ ʀᴇᴠɪᴇᴡꜱ ⭐",
+            "subcat": "gg_maps",
+            "ig_follow_type": "",
+            "panel_name": "Google Maps Reviews Custom + 5 Stars ⭐ | Instant ⚡ | 5K/Day 🚀 | No Refill ❌",
+            "margin": 1.001,
+            "price": 60635.5324,
+            "date": "05-07-2026 06:01 PM"
+        },
+        "time": "05-07-2026 07:11 PM",
+        "status": "removed"
+    },
+    "5033": {
+        "sid": "5033",
+        "name": "ɪɴꜱᴛᴀɢʀᴀᴍ ɪɴᴅɪᴀɴ ɪɢ ꜰᴏʟʟᴏᴡᴇʀꜱ 🇮🇳",
+        "subcat": "ig_followers",
+        "source": "added_services.json",
+        "row": {
+            "name": "ɪɴꜱᴛᴀɢʀᴀᴍ ɪɴᴅɪᴀɴ ɪɢ ꜰᴏʟʟᴏᴡᴇʀꜱ 🇮🇳",
+            "subcat": "ig_followers",
+            "panel_name": "Instagram Indian Followers 🇮🇳 | Indian | Start Time: 0-30 min ⏱️ | Speed: 5K/Day 🚀 | Refill: 365 Day ♻️",
+            "margin": 2.0,
+            "price": 163.4317,
+            "date": "01-07-2026 09:39 PM"
+        },
+        "time": "16-07-2026 11:58 AM",
+        "status": "removed"
+    },
+    "4437": {
+        "sid": "4437",
+        "name": "ɪɴꜱᴛᴀɢʀᴀᴍ ꜰᴏʟʟᴏᴡᴇʀꜱ",
+        "subcat": "ig_followers",
+        "source": "services.json",
+        "row": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ꜰᴏʟʟᴏᴡᴇʀꜱ",
+            75.0,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "ig_followers"
+            }
+        ],
+        "time": "16-07-2026 12:10 PM",
+        "status": "removed"
+    },
+    "4604": {
+        "sid": "4604",
+        "name": "ɪɴꜱᴛᴀɢʀᴀᴍ ꜰᴏʟʟᴏᴡᴇʀꜱ 💎",
+        "subcat": "ig_followers",
+        "source": "added_services.json",
+        "row": {
+            "name": "ɪɴꜱᴛᴀɢʀᴀᴍ ꜰᴏʟʟᴏᴡᴇʀꜱ 💎",
+            "subcat": "ig_followers",
+            "panel_name": "Instagram Followers 👤 | 𝗥𝗘𝗔𝗟 𝗣𝗥𝗢𝗙𝗜𝗟𝗘 ✅ | 10K/Day 🚀 | 365 Days Refill Button ♻️ | Instant ⚡ | Max: 50K 🔢",
+            "margin": 2.0,
+            "price": 169.7175,
+            "date": "03-07-2026 06:27 PM"
+        },
+        "time": "16-07-2026 12:10 PM",
+        "status": "removed"
+    },
+    "3997": {
+        "sid": "3997",
+        "name": "ɪɴꜱᴛᴀɢʀᴀᴍ ꜰᴏʟʟᴏᴡᴇʀꜱ 💎",
+        "subcat": "ig_followers",
+        "source": "added_services.json",
+        "row": {
+            "name": "ɪɴꜱᴛᴀɢʀᴀᴍ ꜰᴏʟʟᴏᴡᴇʀꜱ 💎",
+            "subcat": "ig_followers",
+            "panel_name": "Instagram Followers 👤 | 𝗥𝗘𝗔𝗟 𝗣𝗥𝗢𝗙𝗜𝗟𝗘 ✅ | 10K/Day 🚀 | 90 Days Refill Button ♻️ | Instant ⚡ | Max: 50K 🔢",
+            "margin": 2.0,
+            "price": 159.4316,
+            "date": "03-07-2026 06:27 PM"
+        },
+        "time": "16-07-2026 12:18 PM",
+        "status": "removed"
+    }
+}

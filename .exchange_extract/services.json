@@ -1,0 +1,581 @@
+{
+    "ig_followers": {},
+    "ig_views": {
+        "567": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʀᴇᴇʟ ᴠɪᴇᴡꜱ",
+            9.66,
+            {
+                "margin": 100.0,
+                "vip_margin": 95.0,
+                "pinned": false,
+                "subcat": "ig_views"
+            }
+        ],
+        "3975": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʀᴇᴇʟ ᴠɪᴇᴡꜱ",
+            14.5,
+            {
+                "margin": 100.0,
+                "vip_margin": 95.0,
+                "pinned": false,
+                "subcat": "ig_views"
+            }
+        ],
+        "3976": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʀᴇᴇʟ ᴠɪᴇᴡꜱ",
+            12.73,
+            {
+                "margin": 100.0,
+                "vip_margin": 95.0,
+                "pinned": false,
+                "subcat": "ig_views"
+            }
+        ]
+    },
+    "ig_likes": {
+        "4209": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʟɪᴋᴇꜱ",
+            37.17,
+            {
+                "margin": 14.0,
+                "vip_margin": 13.3,
+                "pinned": false,
+                "subcat": "ig_likes"
+            }
+        ],
+        "4210": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʟɪᴋᴇꜱ (ʀᴇᴀʟ)",
+            37.79,
+            {
+                "margin": 14.0,
+                "vip_margin": 13.3,
+                "pinned": false,
+                "subcat": "ig_likes"
+            }
+        ]
+    },
+    "ig_votes": {},
+    "ig_story": {
+        "585": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ꜱᴛᴏʀʏ ᴠɪᴇᴡꜱ",
+            29.73,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_story"
+            }
+        ],
+        "586": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ꜱᴛᴏʀʏ ᴠɪᴇᴡꜱ",
+            45.53,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_story"
+            }
+        ]
+    },
+    "ig_broadcast": {
+        "4230": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇᴍʙᴇʀꜱ",
+            80.34,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_broadcast"
+            }
+        ],
+        "4135": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇᴍʙᴇʀꜱ",
+            100.98,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_broadcast"
+            }
+        ]
+    },
+    "ig_comments": {
+        "4125": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ᴄᴏᴍᴍᴇɴᴛꜱ",
+            50.18,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_comments"
+            }
+        ],
+        "4584": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ᴄᴏᴍᴍᴇɴᴛꜱ (ᴠᴇʀɪꜰɪᴇᴅ)",
+            55.75,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_comments"
+            }
+        ]
+    },
+    "ig_comment_likes": {
+        "4200": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ᴄᴏᴍᴍᴇɴᴛ ʟɪᴋᴇꜱ",
+            149.69,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "ig_comment_likes"
+            }
+        ],
+        "4201": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ᴄᴏᴍᴍᴇɴᴛ ʟɪᴋᴇꜱ",
+            166.51,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "ig_comment_likes"
+            }
+        ]
+    },
+    "ig_shares": {
+        "4073": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ꜱʜᴀʀᴇꜱ",
+            17.52,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_shares"
+            }
+        ],
+        "4074": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ꜱʜᴀʀᴇꜱ (ʀᴇᴀʟ)",
+            22.0,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "ig_shares"
+            }
+        ]
+    },
+    "ig_reposts": {
+        "4412": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʀᴇᴘᴏꜱᴛꜱ",
+            60.71,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "ig_reposts"
+            }
+        ],
+        "4410": [
+            "ɪɴꜱᴛᴀɢʀᴀᴍ ʀᴇᴘᴏꜱᴛꜱ",
+            61.88,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "ig_reposts"
+            }
+        ]
+    },
+    "yt_subscribers": {
+        "5089": [
+            "ʏᴏᴜᴛᴜʙᴇ ꜱᴜʙꜱᴄʀɪʙᴇʀꜱ",
+            1497.71,
+            {
+                "vip_margin": 1.045,
+                "pinned": false,
+                "subcat": "yt_subscribers"
+            }
+        ],
+        "5096": [
+            "ʏᴏᴜᴛᴜʙᴇ ꜱᴜʙꜱᴄʀɪʙᴇʀꜱ (ɴᴏɴ-ᴅʀᴏᴘ)",
+            1633.99,
+            {
+                "vip_margin": 1.045,
+                "pinned": false,
+                "subcat": "yt_subscribers",
+                "margin": 1.1
+            }
+        ]
+    },
+    "yt_views": {
+        "4771": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴠɪᴇᴡꜱ",
+            106.3,
+            {
+                "vip_margin": 1.235,
+                "pinned": false,
+                "subcat": "yt_views"
+            }
+        ],
+        "4972": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴠɪᴇᴡꜱ (ʀᴇᴀʟ)",
+            115.96,
+            {
+                "vip_margin": 1.235,
+                "pinned": false,
+                "subcat": "yt_views"
+            }
+        ]
+    },
+    "yt_live_views": {
+        "4043": [
+            "ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍ ᴠɪᴇᴡꜱ",
+            55.75,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "yt_live_views"
+            }
+        ],
+        "4124": [
+            "ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍ ᴠɪᴇᴡꜱ (ʜɪɢʜ)",
+            111.5,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "yt_live_views"
+            }
+        ]
+    },
+    "yt_likes": {
+        "3894": [
+            "ʏᴏᴜᴛᴜʙᴇ ʟɪᴋᴇꜱ",
+            475.74,
+            {
+                "vip_margin": 1.14,
+                "pinned": false,
+                "subcat": "yt_likes"
+            }
+        ],
+        "3901": [
+            "ʏᴏᴜᴛᴜʙᴇ ʟɪᴋᴇꜱ",
+            490.6,
+            {
+                "vip_margin": 1.14,
+                "pinned": false,
+                "subcat": "yt_likes"
+            }
+        ]
+    },
+    "yt_live_like": {
+        "4842": [
+            "ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍ ʟɪᴋᴇꜱ",
+            326.81,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "yt_live_like"
+            }
+        ],
+        "4846": [
+            "ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍ ʟɪᴋᴇꜱ",
+            326.81,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "yt_live_like"
+            }
+        ]
+    },
+    "yt_watchtime": {
+        "4473": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴡᴀᴛᴄʜᴛɪᴍᴇ",
+            243.13,
+            {
+                "vip_margin": 2.375,
+                "pinned": false,
+                "subcat": "yt_watchtime"
+            }
+        ],
+        "3448": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴡᴀᴛᴄʜᴛɪᴍᴇ",
+            250.88,
+            {
+                "vip_margin": 2.375,
+                "pinned": false,
+                "subcat": "yt_watchtime"
+            }
+        ]
+    },
+    "yt_comments": {
+        "791": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴍᴍᴇɴᴛꜱ",
+            117.7,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "yt_comments"
+            }
+        ],
+        "4449": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴍᴍᴇɴᴛꜱ (ᴄᴜꜱᴛᴏᴍ)",
+            521.83,
+            {
+                "vip_margin": 1.235,
+                "pinned": false,
+                "subcat": "yt_comments"
+            }
+        ]
+    },
+    "yt_comment_likes": {
+        "1057": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴍᴍᴇɴᴛ ʟɪᴋᴇꜱ",
+            43.27,
+            {
+                "vip_margin": 2.375,
+                "pinned": false,
+                "subcat": "yt_comment_likes"
+            }
+        ],
+        "1058": [
+            "ʏᴏᴜᴛᴜʙᴇ ᴄᴏᴍᴍᴇɴᴛ ʟɪᴋᴇꜱ",
+            46.34,
+            {
+                "vip_margin": 2.375,
+                "pinned": false,
+                "subcat": "yt_comment_likes"
+            }
+        ]
+    },
+    "tg_premium": {},
+    "tg_members": {
+        "4608": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀꜱ",
+            83.01,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "tg_members"
+            }
+        ],
+        "2820": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴍʙᴇʀꜱ (ɴᴏɴ-ᴅʀᴏᴘ)",
+            86.48,
+            {
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "tg_members"
+            }
+        ]
+    },
+    "tg_views": {
+        "3888": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴘᴏꜱᴛ ᴠɪᴇᴡꜱ",
+            9.29,
+            {
+                "vip_margin": 28.5,
+                "pinned": false,
+                "subcat": "tg_views"
+            }
+        ],
+        "2836": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴘᴏꜱᴛ ᴠɪᴇᴡꜱ",
+            12.24,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "tg_views"
+            }
+        ]
+    },
+    "tg_reactions": {
+        "1320": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ʀᴇᴀᴄᴛɪᴏɴꜱ 🟢 ᴘᴏꜱɪᴛɪᴠᴇ",
+            22.3,
+            {
+                "vip_margin": 19.0,
+                "pinned": false,
+                "subcat": "tg_reactions"
+            }
+        ],
+        "1321": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ʀᴇᴀᴄᴛɪᴏɴꜱ 🔴 ɴᴇɢᴀᴛɪᴠᴇ",
+            44.6,
+            {
+                "vip_margin": 19.0,
+                "pinned": false,
+                "subcat": "tg_reactions"
+            }
+        ]
+    },
+    "tg_bot_start": {
+        "4798": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ꜱᴛᴀʀᴛ (ɴᴏɴ-ᴅʀᴏᴘ)",
+            54.53,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "tg_bot_start"
+            }
+        ],
+        "4799": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ꜱᴛᴀʀᴛ (ʟᴏᴡ ᴅʀᴏᴘ)",
+            59.28,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "tg_bot_start"
+            }
+        ],
+        "4048": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ꜱᴛᴀʀᴛ (ᴀᴄᴄᴇᴘᴛ ʀᴇꜰᴇʀʀᴀʟ)",
+            77.07,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "tg_bot_start"
+            }
+        ]
+    },
+    "tg_auto_reactions": {
+        "3852": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴛᴏ ʀᴇᴀᴄᴛɪᴏɴꜱ (5 ꜰᴜᴛᴜʀᴇ ᴘᴏꜱᴛꜱ)",
+            22.29,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "tg_auto_reactions"
+            }
+        ],
+        "3853": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴛᴏ ʀᴇᴀᴄᴛɪᴏɴꜱ (15 ꜰᴜᴛᴜʀᴇ ᴘᴏꜱᴛꜱ)",
+            44.57,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "tg_auto_reactions"
+            }
+        ],
+        "3854": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴛᴏ ʀᴇᴀᴄᴛɪᴏɴꜱ (20 ꜰᴜᴛᴜʀᴇ ᴘᴏꜱᴛꜱ)",
+            66.86,
+            {
+                "vip_margin": 2.85,
+                "pinned": false,
+                "subcat": "tg_auto_reactions"
+            }
+        ]
+    },
+    "tg_auto_post_views": {
+        "4902": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴛᴏ ᴘᴏꜱᴛ ᴠɪᴇᴡꜱ (5 ᴘᴏꜱᴛꜱ)",
+            4.95,
+            {
+                "vip_margin": 4.75,
+                "pinned": false,
+                "subcat": "tg_auto_post_views"
+            }
+        ],
+        "4903": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴛᴏ ᴘᴏꜱᴛ ᴠɪᴇᴡꜱ (10 ᴘᴏꜱᴛꜱ)",
+            12.38,
+            {
+                "vip_margin": 4.75,
+                "pinned": false,
+                "subcat": "tg_auto_post_views"
+            }
+        ],
+        "3930": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴀᴜᴛᴏ ᴘᴏꜱᴛ ᴠɪᴇᴡꜱ (15 ᴘᴏꜱᴛꜱ)",
+            18.57,
+            {
+                "vip_margin": 4.75,
+                "pinned": false,
+                "subcat": "tg_auto_post_views"
+            }
+        ]
+    },
+    "tg_poll_votes": {
+        "4598": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴘᴏʟʟ ᴠᴏᴛᴇꜱ + ꜰʀᴇᴇ ᴠɪᴇᴡꜱ",
+            44.57,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "tg_poll_votes"
+            }
+        ],
+        "4597": [
+            "ᴛᴇʟᴇɢʀᴀᴍ ᴘᴏʟʟ ᴠᴏᴛᴇꜱ",
+            46.47,
+            {
+                "vip_margin": 1.425,
+                "pinned": false,
+                "subcat": "tg_poll_votes"
+            }
+        ]
+    },
+    "fb_followers": {
+        "826": [
+            "ꜰᴀᴄᴇʙᴏᴏᴋ ꜰᴏʟʟᴏᴡᴇʀꜱ",
+            48.07,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "fb_followers"
+            }
+        ],
+        "827": [
+            "ꜰᴀᴄᴇʙᴏᴏᴋ ꜰᴏʟʟᴏᴡᴇʀꜱ (ᴘʀᴏꜰɪʟᴇ)",
+            52.03,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "fb_followers"
+            }
+        ]
+    },
+    "fb_likes_followers": {
+        "4563": [
+            "ꜰᴀᴄᴇʙᴏᴏᴋ ᴘᴀɢᴇ ʟɪᴋᴇꜱ + ꜰᴏʟʟᴏᴡᴇʀꜱ",
+            86.72,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "fb_likes_followers"
+            }
+        ],
+        "4872": [
+            "ꜰᴀᴄᴇʙᴏᴏᴋ ᴘᴀɢᴇ ʟɪᴋᴇꜱ + ꜰᴏʟʟᴏᴡᴇʀꜱ",
+            89.2,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "fb_likes_followers"
+            }
+        ]
+    },
+    "fb_likes": {},
+    "fb_views": {
+        "548": [
+            "ꜰᴀᴄᴇʙᴏᴏᴋ ᴠɪᴅᴇᴏ ᴠɪᴇᴡꜱ",
+            9.86,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "fb_views"
+            }
+        ],
+        "4631": [
+            "ꜰᴀᴄᴇʙᴏᴏᴋ ᴠɪᴅᴇᴏ ᴠɪᴇᴡꜱ (ᴠɪʀᴀʟ)",
+            10.16,
+            {
+                "vip_margin": 3.8,
+                "pinned": false,
+                "subcat": "fb_views"
+            }
+        ]
+    },
+    "fb_comments": {},
+    "fb_shares": {
+        "4520": [
+            "ꜰᴀᴄᴇʙᴏᴏᴋ ꜱʜᴀʀᴇꜱ",
+            13.5,
+            {
+                "margin": 2.0,
+                "vip_margin": 1.9,
+                "pinned": false,
+                "subcat": "fb_shares"
+            }
+        ]
+    }
+}
