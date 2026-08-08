@@ -19,7 +19,7 @@ import random
 from collections import Counter
 
 # Configuration
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = os.environ.get("TOKEN")
 SMM_API_KEY = os.environ.get("SMM_API_KEY")
 SMM_API_URL = "https://topsmm.in/api/v2"
 ADMIN_ID = 6323330154  # Admin ID
