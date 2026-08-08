@@ -19,8 +19,8 @@ import random
 from collections import Counter
 
 # Configuration
-TOKEN = "8629916371:AAGLC2DhmB1bOQm7v5ypLgQ_BO5KSGh7j6Q"
-SMM_API_KEY = "6f9650ed968aa040a3098c3d15e9d853b5764138"
+TOKEN = os.environ.get("BOT_TOKEN")
+SMM_API_KEY = os.environ.get("SMM_API_KEY")
 SMM_API_URL = "https://topsmm.in/api/v2"
 ADMIN_ID = 6323330154  # Admin ID
 ORDER_LOG_CHANNEL = "@rehansmmbotorderslog"
