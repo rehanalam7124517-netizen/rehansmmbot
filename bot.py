@@ -16,8 +16,6 @@ import tempfile
 import uuid
 import sys
 import random
-import glob
-from urllib.parse import quote
 from collections import Counter
 from flask import Flask
 from threading import Thread
@@ -88,99 +86,6 @@ PRICE_HISTORY_FILE = "price_history.json"
 WALLET_HISTORY_FILE = "wallet_history.json"
 KNOWN_SERVICES_FILE = "known_services.json"
 SETTINGS_FILE = "settings.json"
-
-# ================= SUPABASE STORAGE =================
-
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
-SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
-
-SUPABASE_TABLE = "bot_data"
-
-def supabase_enabled():
-    return bool(SUPABASE_URL and SUPABASE_KEY)
-
-def supabase_headers():
-    return {
-        "apikey": SUPABASE_KEY,
-        "Authorization": f"Bearer {SUPABASE_KEY}",
-        "Content-Type": "application/json"
-    }
-
-def supabase_get(filename):
-    if not supabase_enabled():
-        return None
-
-    try:
-        url = (
-            f"{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}"
-            f"?filename=eq.{quote(filename, safe='')}"
-            f"&select=data&limit=1"
-        )
-
-        response = _HTTP_SESSION.get(
-            url,
-            headers=supabase_headers(),
-            timeout=15
-        )
-
-        if response.status_code != 200:
-            print(
-                f"[SUPABASE GET ERROR] "
-                f"{filename}: {response.status_code}"
-            )
-            return None
-
-        rows = response.json()
-
-        if rows:
-            return rows[0]["data"]
-
-        return None
-
-    except Exception as e:
-        print(f"[SUPABASE GET ERROR] {filename}: {e}")
-        return None
-
-
-def supabase_save(filename, data):
-    if not supabase_enabled():
-        return False
-
-    try:
-        url = f"{SUPABASE_URL}/rest/v1/{SUPABASE_TABLE}"
-
-        headers = supabase_headers()
-        headers["Prefer"] = "resolution=merge-duplicates,return=minimal"
-
-        payload = {
-            "filename": filename,
-            "data": data,
-            "updated_at": datetime.utcnow().isoformat() + "Z"
-        }
-
-        response = _HTTP_SESSION.post(
-            url,
-            headers=headers,
-            json=payload,
-            timeout=15
-        )
-
-        if response.status_code not in (200, 201, 204):
-            print(
-                f"[SUPABASE SAVE ERROR] "
-                f"{filename}: {response.status_code} "
-                f"{response.text[:200]}"
-            )
-            return False
-
-        return True
-
-    except Exception as e:
-        print(f"[SUPABASE SAVE ERROR] {filename}: {e}")
-        return False
-
-
-# ================= END SUPABASE STORAGE =================
 
 # Runtime API configuration: settings.json values override hard-coded defaults.
 def _load_runtime_api_config():
@@ -725,73 +630,19 @@ MENU_BUTTONS = [
     "🏠 ᴍᴀɪɴ ᴍᴇɴᴜ"
 ]
 
-# ================= DATABASE MANAGEMENT =================
-
+# Databases management
 def load_json(filename):
-
-    # First try Supabase
-    if supabase_enabled():
-
-        remote_data = supabase_get(filename)
-
-        if remote_data is not None:
-
-            # Keep local copy as backup/fallback
-            try:
-                with open(filename, "w", encoding="utf-8") as f:
-                    json.dump(
-                        remote_data,
-                        f,
-                        indent=4,
-                        ensure_ascii=False
-                    )
-            except Exception:
-                pass
-
-            return remote_data
-
-    # Fallback to local JSON
-    if not os.path.exists(filename):
-        return {}
-
+    if not os.path.exists(filename): return {}
     try:
-        with open(filename, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        # If Supabase doesn't have this file yet,
-        # upload the existing local data.
-        if supabase_enabled():
-            if supabase_get(filename) is None:
-                supabase_save(filename, data)
-
-        return data
-
-    except Exception as e:
-        print(f"[JSON LOAD ERROR] {filename}: {e}")
+        with open(filename, "r") as f: return json.load(f)
+    except:
         return {}
-
 
 def save_json(filename, data):
-
-    # Always save local JSON first
     temp_file = filename + ".tmp"
-
     with open(temp_file, "w", encoding="utf-8") as f:
-        json.dump(
-            data,
-            f,
-            indent=4,
-            ensure_ascii=False
-        )
-
+        json.dump(data, f, indent=4, ensure_ascii=False)
     os.replace(temp_file, filename)
-
-    # Then save to Supabase
-    if supabase_enabled():
-        supabase_save(filename, data)
-
-
-# ================= END DATABASE MANAGEMENT =================
 
 def backup_json_files():
     for filename in [DB_FILE, ORDERS_FILE, FUNDS_FILE, FUNDS_HISTORY_FILE, COUPON_FILE, LAST_PRICE_FILE]:
