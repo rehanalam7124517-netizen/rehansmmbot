@@ -4507,7 +4507,7 @@ def handle_text(message):
             "⚠️ <b>ᴍɪɴɪᴍᴜᴍ ᴀᴍᴏᴜɴᴛ: ₹5</b>"
         )
 
-        with open("qr.jpg", "rb") as qr:
+        with open("qr.png", "rb") as qr:
             msg = bot.send_photo(
                 user_id,
                 qr,
