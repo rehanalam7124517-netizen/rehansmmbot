@@ -4508,7 +4508,7 @@ def handle_text(message):
         )
 
         with open("qr.png", "rb") as qr:
-            msg = await bot.send_photo(
+            msg = bot.send_photo(
                 user_id,
                 qr,
                 caption=caption,
